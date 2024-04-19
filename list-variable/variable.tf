@@ -2,9 +2,9 @@
 
 variable "users" {
   type        = list(string)
-  default     = ["John"]
+  default     = ["John","Akhilesh","Aman"]
   description = "List containing user names"
-  nullable = false
+  nullable    = false
 
   validation {
     condition     = length(var.users) > 0 && alltrue([for u in var.users : length(u) > 0])
