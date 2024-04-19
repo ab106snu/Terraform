@@ -5,5 +5,5 @@ output hello1{
     value = "Hellow world1"
 }
 output hello2{
-    value = "Hellow world2123"
+    value = "Hellow Akhilesh"
 }
